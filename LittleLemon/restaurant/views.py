@@ -17,7 +17,7 @@ class BookingViewSet(ModelViewSet):
     permission_classes = [IsAuthenticated]
 
 
-class MenuItemsView(generics.ListAPIView):
+class MenuItemsView(generics.ListCreateAPIView):
     """
     A list API view for Menu
     """
